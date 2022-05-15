@@ -1,0 +1,3 @@
+[submodule "themes/hugonews"]
+	path = themes/hugonews
+	url = https://github.com/patrickjohnson3/hugonews.git

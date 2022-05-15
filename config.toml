@@ -1,0 +1,9 @@
+baseURL = 'http://mapoli.net/'
+languageCode = 'en-us'
+title = 'mapoli.net'
+theme = 'hugonews'
+
+[taxonomies]
+    tag = 'tags'
+    category = 'categories'
+    site = 'sites'

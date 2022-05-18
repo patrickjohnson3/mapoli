@@ -7,3 +7,6 @@ theme = 'hugonews'
     tag = 'tags'
     category = 'categories'
     site = 'sites'
+
+[permalinks]
+  items = '/:year/:month/:title/'

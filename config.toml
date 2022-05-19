@@ -2,6 +2,7 @@ baseURL = 'https://mapoli.net/'
 languageCode = 'en-us'
 title = 'mapoli.net'
 theme = 'hugonews'
+paginate = '25'
 
 [taxonomies]
     tag = 'tags'

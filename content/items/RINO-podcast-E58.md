@@ -1,5 +1,5 @@
 ---
-title: "RINO Podcast E58: #Bidenflation & dueling billionaires"
+title: "RINO Podcast E58: Bidenflation & dueling billionaires"
 date: 2022-05-15T20:11:04-04:00
 itemurl: "https://youtu.be/22YaeeuuVjE" 
 sites: "youtube.com" 

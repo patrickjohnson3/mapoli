@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    {{ template "_internal/google_analytics_async.html" . }}
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
@@ -8,7 +9,6 @@
     <link rel="stylesheet" href="{{ "css/style.css" | relURL }}">
     <link rel="icon" href="data:,">
     <title>{{ .Site.Title }}</title>
-    {{ template "_internal/google_analytics_async.html" . }}
 </head>
 <body>
 <header id="header">

@@ -3,7 +3,8 @@ languageCode = 'en-us'
 title = 'mapoli.net'
 theme = 'hugonews'
 paginate = '25'
-GoogleAnalytics = 'G-SQXW0YVJSJ'
+googleAnalytics = 'G-SQXW0YVJSJ'
+googleAnalyticsID = 'G-SQXW0YVJSJ'
 
 [taxonomies]
     tag = 'tags'

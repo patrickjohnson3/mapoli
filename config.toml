@@ -4,6 +4,7 @@ title = 'mapoli.net'
 theme = 'hugonews'
 paginate = '25'
 googleAnalytics = 'G-MPR725SZRG'
+disqusShortname = 'mapoli'
 
 [taxonomies]
     tag = 'tags'

@@ -10,7 +10,7 @@
         {{ range sort .Params.tags }}
             <a class="item__tag" href="/tags/ {{- . | urlize -}}">{{- . -}}</a>
         {{- end }}
-        <a class="item__notes" href="{{ .Permalink }}#disqus_thread">link</a>
+        <a class="item__notes" href="{{ .Permalink }}#disqus_thread">0 comments</a>
     </p>
 </li>
 {{ end }}

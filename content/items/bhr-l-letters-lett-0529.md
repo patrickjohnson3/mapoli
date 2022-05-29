@@ -7,4 +7,4 @@ tags: []
 draft: false
 ---
 
-> We are experiencing the Democratic burn. Gas prices, food costs, crime, drugs, homelessness, illegal immigration, baby formula crises, Afghanistan, are all a result of progressive politicians, proud Democrats.
+{{< tweet user="bostonherald" id="1530767703216111616" >}}

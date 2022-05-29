@@ -12,4 +12,4 @@ disqusShortname = 'mapoli'
     site = 'sites'
 
 [permalinks]
-  items = '/:year/:month/:title/'
+  items = '/:year/:month/:day/:title/'

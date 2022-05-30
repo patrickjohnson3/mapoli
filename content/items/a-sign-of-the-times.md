@@ -6,4 +6,3 @@ sites: "legalinsurrection.com"
 tags: []
 draft: false
 ---
-

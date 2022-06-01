@@ -6,6 +6,9 @@ paginate = '25'
 googleAnalytics = 'G-MPR725SZRG'
 disqusShortname = 'mapoli'
 
+[params]
+    description = 'A choice selection of Massachusetts political news.'
+
 [taxonomies]
     tag = 'tags'
     category = 'categories'

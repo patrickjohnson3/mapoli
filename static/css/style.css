@@ -75,7 +75,9 @@ nav a {
 
 .item__urls > a:first-child {
     color: #1a0dab;
-    text-decoration: none;
+    text-decoration: underline;
+    line-height: 1.3;
+    font-size: 0.9rem;
 }
 
 .item__siteurl,

@@ -1,11 +1,7 @@
 {{ partial "header.html" . }}
     <article class="single">
-        {{ if ne (trim .Content " ") "" }}
-        {{ .Content }}
-        {{ else }}
-        <p>No notes for this article.</p>
-        {{ end }}
-      
+      <h1>{{ .Title }}</h1>
+      <a href="{{ .Params.itemurl }}">{{ .Params.itemurl }}</a>
       <section>
         {{ template "_internal/disqus.html" . }}
       </section>

@@ -7,7 +7,9 @@
     <link rel="stylesheet" href="{{ "css/style.css" | relURL }}">
     <link rel="icon" href="data:,">
     <!-- <title>{{ .Site.Title }}</title> -->
-    <title>{{if .IsHome }}{{ .Site.Title }}{{else}}Comments on {{.Title}}{{end}}</title>
+    <title>{{if .IsHome }}{{ .Site.Title }}
+           {{else if or (eq .Title "Tags") (eq .Title "Sites")}}{{ .Title }}
+           {{else}}Comments on {{.Title}}{{end}}</title>
     <!-- <meta name="description" content="{{ .Site.Params.Description }}"> -->
     {{if .IsHome}}<meta name="description" content="{{ $.Site.Params.description }}">{{end}}
     {{ template "_internal/google_analytics.html" . }}

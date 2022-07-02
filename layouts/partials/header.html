@@ -8,7 +8,7 @@
     <link rel="icon" href="data:,">
     <!-- <title>{{ .Site.Title }}</title> -->
     <title>{{if .IsHome }}{{ .Site.Title }}
-           {{else if or (eq .Title "Tags") (eq .Title "Sites")}}{{ .Title }}
+           {{else if .IsNode }}{{ .Site.Title }} | {{ .Title }}
            {{else}}Comments on {{.Title}}{{end}}</title>
     <!-- <meta name="description" content="{{ .Site.Params.Description }}"> -->
     {{if .IsHome}}<meta name="description" content="{{ $.Site.Params.description }}">{{end}}

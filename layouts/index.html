@@ -6,7 +6,7 @@
 <li class="item">
     <p class="item__urls"><a href="{{ .Params.ItemUrl }}">{{ .Title }}</a></p>
     <p class="item__meta">
-        <span>Posted {{ .Date.Format "1/2/06" }} at <a class="item__siteurl" href="/sites/{{ replace $site.Host "www." "" }}">{{ replace $site.Host "www." "" }}</a></span>
+        <span>Posted {{ .Date.Format "1/2/06" }} at <a class="item__siteurl" href="/sites/{{ replace $site.Host "www." "" }}/">{{ replace $site.Host "www." "" }}</a></span>
     </p>
     <p class="item__meta"><a class="item__notes" href="{{ .Permalink }}#disqus_thread">0 comments</a>
       {{ range sort .Params.tags }}

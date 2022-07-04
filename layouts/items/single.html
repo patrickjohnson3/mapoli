@@ -2,6 +2,7 @@
     <article class="single">
       <h1>{{ .Title }}</h1>
       <a href="{{ .Params.itemurl }}">{{ .Params.itemurl }}</a>
+      {{ .Content }}
       <section>
         {{ template "_internal/disqus.html" . }}
       </section>

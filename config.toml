@@ -5,6 +5,8 @@ theme = 'hugonews'
 paginate = '25'
 googleAnalytics = 'G-MPR725SZRG'
 disqusShortname = 'mapoli'
+ignoreErrors = ["error-remote-getjson"]
+
 
 [params]
     description = 'A choice selection of Massachusetts political news.'
